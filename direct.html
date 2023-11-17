@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+            color: #224;
+            background: #ffffff73;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            min-height: 450px;
+            padding: 30px;
+            border-radius: 20px;
+            background-color: #ffffff73;
+            background: linear-gradient(to top, #1F2D7C 65%, #ffffff73 35%);
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .card {
+            max-width: 400px;
+            min-height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #ffffff;
+            margin: auto;
+            font-size: 12px;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        img {
+            width: 25%;
+            padding: 10px 10px;
+        }
+
+        .custom-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
+
+        .custom-button img {
+            width: 100px;
+            height: auto;
+            border: none;
+            cursor: pointer;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            color: #ffffff;
+            font-size: 12px;
+            text-decoration: none;
+        }
+
+        h3 {
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .copyright {
+            color: #ffffff;
+            font-size: 10px;
+            text-align: center;
+        }
+
+        @media screen and (max-width:600px) {
+            img {
+                width: 60%;
+            }
+
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div style="text-align: center;">
+            <img src="logo.png" alt="Company Logo">
+        </div>
+        <div class="card">
+            <div>
+                <h2 style="font-weight: bold;">Unduh Aplikasi Xignature</h2>
+                <p>Jika Anda belum memiliki aplikasi Xignature, Anda dapat mengunduhnya melalui App Store atau Play
+                    Store.</p>
+            </div>
+            <div class="custom-button">
+                <a href="#">
+                    <img src="playstore.svg" alt="Play Store Button">
+                </a>
+                <a href="#">
+                    <img src="appstore.svg" alt="App Store Button">
+                </a>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <h3>Xignature</h3>
+        <div class="copyright">
+            &copy; 2023 Your Xignature. All Rights Reserved.
+        </div>
+    </div>
+</body>
+
+</html>
